@@ -55,5 +55,31 @@ a:hover		{ color:#1fb9a5; text-decoration:underline;}
 .right-nav{ margin: 0 30px; height: 33px;  line-height: 33px; border-top: 1px solid #a5a197; border-bottom: 4px double #6c6962;}
 .banner{ width: 740px; height: 206px; margin: 30px auto;}
 .tw-con{ width: 740px; margin: 30px auto;}
-.tw-con-left{ width: 400px;}
-.tw-con-left h3{ height: 40px; line-height: 40px; font-size: 18px; color: #427d1d;}
+.tw-con-left{ width: 400px; float: left;}
+.tw-con-left h3{ width: 380px; height: 40px; line-height: 40px; font-size: 18px; color: #427d1d;}
+.tw-con-left p{ width: 380px; line-height: 18px;}
+.tw-con-right{ width: 325px; float: right;}
+.tw-con-right-aside-t{ width: 325px; height: 170px; background: #ffffff;}
+.tw-con-right-aside-t-con{ margin: 5px 0 0 5px; width: 310px; height: 158px; border: 1px solid #139704;border-radius: 3px;}
+.tw-con-right-aside-t-con h4{ margin: 1px 1px; height: 29px; line-height: 29px; background:  url(../img/h4-bg.jpg) repeat-x;text-align: center}
+.tw-con-right-aside-t-con ul{ padding-top: 12px; height: 106px; overflow: hidden;}
+.tw-con-right-aside-t-con ul li { float: left; margin: 0 12px 6px 12px; width: 290px;  line-height: 16px; }
+.tw-con-right-aside-t-con ul li a { margin-right: 6px; display: inline; width: 210px; float: left; overflow: hidden; white-space: nowrap;text-overflow: ellipsis; }
+.tw-con-right-aside-t-con ul li i{ margin-right: 4px; display: inline; float: left;}
+.tw-con-right-aside-t-con li time{ margin-right: 4px; display: inline; float: left;font-size: 8px;}
+.tw-con-right-aside-t-con li span{ float: left; width: 22px; height: 9px; background: url(../img/new.jpg) 0 0 no-repeat;}
+.tw-con-right-aside-t-con .news a{ color: #0e8601;}
+.tw-con-right-aside-t-con .big-time{ float: left; font-size: 10px; font-weight: bold; color: #0e8601;}
+
+.tw-con-right-aside-b{ width: 312px; height: 165px; background: #ececec;}
+
+
+
+
+
+
+
+
+
+
+
