@@ -36,14 +36,15 @@ a:hover		{ color:#1fb9a5; text-decoration:underline;}
 .left-nav-wrap-ul .list7 span{ background-position: 0 -108px;}
 .left-nav-wrap-ul li a{ font-size: 14px; font-weight: bold; display: block; color: #ffffff;border-radius: 5px; text-decoration: none; }
 .left-nav-wrap-ul li ul{ opacity: 0; height: 0; overflow: hidden;}
-.left-nav-wrap-ul li ul a{ padding-left: 28px; font-size: 12px; line-height: 24px; }
+.left-nav-wrap-ul li ul a{  font-size: 12px; line-height: 24px; }
 .left-nav-wrap-ul li li{ height: 0; overflow: hidden; border-bottom: 0 none; }
-
+.left-nav-wrap-ul li li a{margin-top: 2px; padding-left: 10px;width: 130px; display: block; float: left;}
 .left-nav-wrap-ul li ul,
 .left-nav-wrap-ul li,
 .left-nav-wrap-ul li li{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s;-o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;}
 
-.left-nav-wrap-ul li:hover > a{ background: #245c09;}
+.left-nav-wrap-ul li:hover > a { background: #245c09; }
+.left-nav-wrap-ul li:hover > a:after{content: '>'; float: right; margin-right: 10px; color: #ffffff; font-size: 14px;}
 .left-nav-wrap-ul li:hover li{ height: 24px;}
 .left-nav-wrap-ul li:hover ul{ opacity: 1; height: auto;}
 
