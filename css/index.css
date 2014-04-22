@@ -55,7 +55,7 @@ a:hover		{ color:#1fb9a5; text-decoration:underline;}
 .right-nav{ margin: 0 30px; height: 33px;  line-height: 33px; border-top: 1px solid #a5a197; border-bottom: 4px double #6c6962;}
 .banner{ width: 740px; height: 206px; margin: 30px auto;}
 .tw-con{ width: 740px; margin: 30px auto;}
-.tw-con-left{ width: 400px; float: left;}
+.tw-con-left{ width: 400px; float: left; _width: 300px;}
 .tw-con-left h3{ width: 380px; height: 40px; line-height: 40px; font-size: 18px; color: #427d1d;}
 .tw-con-left p{ width: 380px; line-height: 18px;}
 .tw-con-right{ width: 325px; float: right;}
@@ -71,15 +71,20 @@ a:hover		{ color:#1fb9a5; text-decoration:underline;}
 .tw-con-right-aside-t-con .news a{ color: #0e8601;}
 .tw-con-right-aside-t-con .big-time{ float: left; font-size: 10px; font-weight: bold; color: #0e8601;}
 
-.tw-con-right-aside-b{ width: 312px; height: 165px; background: #ececec;}
+.tw-con-right-aside-b{ margin: 18px 0 0 5px; width: 312px; height: 165px; background: #ececec; overflow: hidden;}
+.tw-con-right-aside-b h4{ height: 34px; line-height: 34px; text-align: center; font-size: 14px; color: #990000; font-size-adjust: none;text-decoration: underline;}
+.tw-con-right-aside-b ul { }
+.tw-con-right-aside-b ul li{ margin-bottom: 3px; position: relative; z-index: 2; margin-left: 8px; display: inline; width: 298px; float: left;}
+.tw-con-right-aside-b ul li i{ margin: 7px 6px 0 0; width: 2px; height: 2px; float: left; background: #333333; display: block; overflow: hidden;}
+.tw-con-right-aside-b ul li a{ float: left; color: #008000; background: #ececec;}
+.tw-con-right-aside-b ul li time{ float: right; height: 16px; color: #ff0000;background: #ececec;}
+.tw-con-right-aside-b ul li span{ position: absolute; top: 8px; right: 0; z-index: -1; width: 50%;height: 1px; border-top: 1px dotted #000; display: block;}
 
+.news .line-through { width: 100px; text-decoration: line-through; color: #000000;text-align: right; float: right;}
+.news .line-through2 { width: 100%; display: block;text-align: right; float: right; }
 
-
-
-
-
-
-
-
-
-
+.tw-con-2{ padding-left: 30px; float: left;/*background: url(../img/pic1.jpg) center right no-repeat;*/}
+.tw-con-2 h3{ height: 16px; line-height: 16px; font-size: 14px; color: #ff0000;}
+.tw-con-2 h4{ margin: 14px 0 4px 0; height: 16px; line-height: 16px; color: #0066cc;}
+.tw-con-2 p{ /*margin-right: 216px;*/line-height: 18px;}
+.tw-con-2 em{  float: right; display: block;}
