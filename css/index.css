@@ -25,7 +25,7 @@ a:hover		{ color:#1fb9a5; text-decoration:underline;}
 
 .left-nav-wrap{ margin: 138px 0 0 8px; padding-bottom: 10px;width: 190px; min-height: 400px; height: auto !important; height: 400px; background: #4d831e;}
 
-.left-nav-wrap-ul{}
+.left-nav-wrap-ul{ padding-top: 10px;}
 .left-nav-wrap-ul li { margin: 0 14px; width: 162px; line-height: 38px; border-bottom: 1px solid #599724;  }
 .left-nav-wrap-ul li span { float: left; margin: 10px 8px 0 5px; width: 16px; height: 16px; display: block; background: url(../img/sm-logo.png) 0 0 no-repeat; }
 .left-nav-wrap-ul .list2 span { background-position: 0 -18px; }
@@ -54,11 +54,12 @@ a:hover		{ color:#1fb9a5; text-decoration:underline;}
 .top-head h2{ font-size: 12px; font-weight: normal;}
 
 .right-art{ width: 780px; float: right; background: #fafaf0;}
-.right-nav{ margin: 0 30px; height: 33px;  line-height: 33px; border-top: 1px solid #a5a197; border-bottom: 4px double #6c6962;}
+.right-nav{ margin: 10px 30px; height: 33px;  line-height: 33px; border-top: 1px solid #a5a197; border-bottom: 4px double #6c6962;}
 .banner{ width: 740px; height: 206px; margin: 30px auto;}
 .tw-con{ width: 740px; margin: 30px auto;}
 .tw-con-left{ width: 400px; float: left; _width: 300px;}
-.tw-con-left h3{ width: 380px; height: 40px; line-height: 40px; font-size: 18px; color: #427d1d;}
+.tw-con-left h3{ width: 380px; height: 40px; line-height: 40px; }
+.tw-con-left h3 a{font-size: 18px; color: #427d1d;}
 .tw-con-left p{ width: 380px; line-height: 18px;}
 .tw-con-right{ width: 325px; float: right;}
 .tw-con-right-aside-t{ width: 325px; height: 170px; background: #ffffff;}
@@ -87,7 +88,8 @@ a:hover		{ color:#1fb9a5; text-decoration:underline;}
 
 .tw-con-2{ padding-left: 30px; margin-bottom: 30px; float: left;/*background: url(../img/pic1.jpg) center right no-repeat;*/}
 .tw-con-2 hgroup{ display: block;}
-.tw-con-2 h3{ height: 16px; line-height: 16px; font-size: 14px; color: #ff0000;}
+.tw-con-2 h3{ height: 16px; line-height: 16px; }
+.tw-con-2 h3 a{font-size: 14px; color: #ff0000;}
 .tw-con-2 h4{ margin: 14px 0 4px 0; height: 16px; line-height: 16px; color: #0066cc;}
 .tw-con-2 p{ /*margin-right: 216px;*/ width: 100%;line-height: 18px;}
 .tw-con-2 em{  float: right; display: block;}
